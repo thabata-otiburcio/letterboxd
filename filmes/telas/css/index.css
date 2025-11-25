@@ -10,7 +10,7 @@ body{
 
 /* ##### MENU ##### */
 .logo{
-    margin: 0px 10px 0px 50px;
+    margin: 10px 10px 0px 350px;
     position: relative;
     z-index: 10;
 }
@@ -25,10 +25,10 @@ nav{
     margin-bottom: 50px;
 }
 
+
 .navbar-brand{
     color: white;
     font-weight: bold;
-    margin-left: 280px;
 }
 
 .navbar-brand:HOVER{
@@ -53,6 +53,7 @@ nav ul .nav-link:HOVER{
 
 .d-flex{
     margin-right: 350px;
+    margin-top: 5px;
 }
 
 /* ##### CARROSEL ##### */
@@ -65,6 +66,7 @@ nav ul .nav-link:HOVER{
 
 .inicio h1{
     text-align: center;
+    color: white;
 }
 
 .carousel-inner{
@@ -93,7 +95,7 @@ nav ul .nav-link:HOVER{
 }
 
 .inicio p{
-    color:  gray;
+    color:  #c8d4e4;
     font-size: 20px;
 }
 
@@ -106,14 +108,14 @@ nav ul .nav-link:HOVER{
 }
 
 .apresentacaoTexto h2{
-    color: white;
+    color: #c8d4e4;
     text-align: center;
     font-weight: bold;
     margin-bottom: 25px;
 }
 
 .apresentacaoTexto p{
-    color: white;
+    color: #c8d4e4;
     text-align: justify;
     font-size: 18px;
 }
@@ -127,6 +129,84 @@ nav ul .nav-link:HOVER{
 .apresentacaoFotos .fotos{
     width: 50px;
     height: auto;
+}
+
+.comentarios{
+    width: 1160px;
+    height: auto;
+    margin: 50px 0px 50px 370px;
+}
+
+.comentarios p{
+    color: #c8d4e4;
+}
+
+.comentarios .col1{
+    width: 280px;
+    padding: 5px 5px;
+    color: #c8d4e4;
+    margin-right:12px;
+    border-radius: 5px;
+    background-color: #30455c;
+    text-align: left;
+}
+
+.comentarios .col1 p{
+    margin: 5px 10px 5px 0px;
+    padding-left: 55px;
+}
+
+.comentarios .col2{
+    width: 280px;
+    padding: 5px 5px;
+    color: #c8d4e4;
+    margin-right:12px;
+    border-radius: 5px;
+    background-color: #30455c;
+    text-align: left;
+}
+
+.comentarios .col2 p{
+    margin: 5px 10px 5px 0px;
+    padding-left: 55px;
+}
+.comentarios .col3{
+    width: 280px;
+    padding: 5px 5px;
+    color: #c8d4e4;
+    margin-right:12px;
+    border-radius: 5px;
+    background-color: #30455c;
+    text-align: left;
+}
+
+.comentarios .col3 p{
+    margin: 5px 10px 5px 0px;
+    padding-left: 55px;
+}
+.comentarios .col4{
+    width: 280px;
+    padding: 5px 5px;
+    color: #c8d4e4;
+    border-radius: 5px;
+    background-color: #30455c;
+    text-align: left;
+}
+
+.comentarios .col4 p{
+    margin: 5px 10px 5px 0px;
+    padding-left: 55px;
+}
+.comentarios .icon{
+    float: left;
+    margin: 20px 0px 10px 5px;
+}
+
+.textoFinal{
+    width: 1000px;
+    margin: 50px 0px 70px 430px;
+    color:#c8d4e4;
+    text-align: center;
 }
 
 
@@ -144,4 +224,8 @@ footer{
     color:#8698ae;
     margin-left: 350px;
     text-align: left;
+}
+
+footer ul{
+    list-style-type: none;
 }
