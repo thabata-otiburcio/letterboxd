@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Calibri', Helvetica, Arial;
+    background-color: #0f1c2b;
+}
+
+/* ##### MENU ##### */
+
+.logo{
+    margin: 10px 10px 0px 350px;
+    position: relative;
+    z-index: 10;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: larger;
+    margin-bottom: 40px;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand:HOVER{
+    color: #8698ae;
+}
+
+.nav-link{
+    color: white;
+}
+
+nav li .nav-item{
+    color: white;
+}
+
+nav ul .nav-link:HOVER{
+    color: #8698ae;
+}
+
+.dropdown{
+    color: #8698ae;
+}
+
+.d-flex{
+    margin-right: 350px;
+    margin-top: 5px;
+}
+
+/* ##### Usuário ##### */
+.user{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.perfil img{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.user .col1{
+    width: 110px;
+    height: 110px;
+}
+
+.user .col2{
+    width: 1070px;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #8698ae;
+}
+
+.user .col2 h4{
+    color:white;
+}
+
+.user .icons{
+    margin-left: 130px;
+    font-size: 18px;
+    color: #8698ae;
+    margin-bottom: 20px;
+}
+
+.user svg{
+    color: #ae7973;
+}
+
+
+
+#geral{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1200px;
+}
+
+.grades .cong1{
+    background-color: yellow;
+}
+
+main .revisoes{
+    width: 620px;
+    height: auto;
+    margin-bottom: 50px;
+    color:#8698ae;
+}
+
+.revisoes h4{
+    color: white;
+}
+
+#c1{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#c1 .col1{
+    width: 450px;
+    margin-top: 15px;
+}
+
+#c1 .col2{
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #ae7973;
+    width: 120px;
+    height: auto;
+}
+
+#c1 .col3{
+    margin-top: 15px;
+    width: 10px;
+    height: auto;
+}
+
+#c1 .col4{
+    color:#7b8ca1;
+}
+
+#c1 .col5{
+    color:#c4d0df;
+}
+
+#c1 .col6{
+    width:35px;
+    height: auto;
+    color: #7b8ca1;
+    margin-left: 5px;
+}
+
+#c1 .col7{
+    width: 300px;
+    height: auto;
+    float: left;
+    color: #7b8ca1;
+}
+
+#c2{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#c2 .col1{
+    width: 450px;
+    margin-top: 15px;
+}
+
+#c2 .col2{
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #ae7973;
+    width: 120px;
+    height: auto;
+}
+
+#c2 .col3{
+    margin-top: 15px;
+    width: 10px;
+    height: auto;
+}
+
+#c2 .col4{
+    color:#7b8ca1;
+}
+
+#c2 .col5{
+    color:#c4d0df;
+}
+
+#c2 .col6{
+    width:35px;
+    height: auto;
+    color: #7b8ca1;
+    margin-left: 5px;
+}
+
+#c2 .col7{
+    width: 300px;
+    height: auto;
+    float: left;
+    color: #7b8ca1;
+}
+
+#c3{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#c3 .col1{
+    width: 450px;
+    margin-top: 15px;
+}
+
+#c3 .col2{
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #ae7973;
+    width: 120px;
+    height: auto;
+}
+
+#c3 .col3{
+    margin-top: 15px;
+    width: 10px;
+    height: auto;
+}
+
+#c3 .col4{
+    color:#7b8ca1;
+}
+
+#c3 .col5{
+    color:#c4d0df;
+}
+
+#c3 .col6{
+    width:35px;
+    height: auto;
+    color: #7b8ca1;
+    margin-left: 5px;
+}
+
+#c3 .col7{
+    width: 300px;
+    height: auto;
+    float: left;
+    color: #7b8ca1;
+}
+
+
+
+.cong2 .favoritos{
+    width: 530px;
+    background-color: green;
+    position: relative;
+}
+
+/* ##### FOOTER ##### */
+footer{
+    width: 100%;
+    background-color: #213041;
+    text-align: center;
+    color: white;
+    padding: 40px 0px 100px 0px;
+}
+
+.textoFooter{
+    float: left;
+    color:#8698ae;
+    text-align: left;
+}
+
+footer ul{
+    list-style-type: none;
+}
