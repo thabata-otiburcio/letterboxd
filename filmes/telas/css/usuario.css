@@ -105,27 +105,36 @@ nav ul .nav-link:HOVER{
 }
 
 
-
-#geral{
-    margin: 0 auto;
-    overflow: hidden;
-    width: 1200px;
-}
-
-.grades .cong1{
-    background-color: yellow;
-}
+/* ##### Main ##### */
 
 main .revisoes{
-    width: 620px;
+    width: 1225px;
     height: auto;
+    margin: 0 auto;
+    overflow: hidden;
     margin-bottom: 50px;
     color:#8698ae;
+}
+
+.revisoes h3{
+    color: white;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.analise{
+    width: 700px;
+    height: auto;
+    float: left;
+    margin-right: 23px;
+    margin-bottom: 40px;
 }
 
 .revisoes h4{
     color: white;
 }
+
+/* ### Análise e Avaliação ### */
 
 #c1{
     border-style: solid;
@@ -139,6 +148,7 @@ main .revisoes{
     width: 450px;
     margin-top: 15px;
 }
+
 
 #c1 .col2{
     margin-top: 15px;
@@ -274,12 +284,177 @@ main .revisoes{
     color: #7b8ca1;
 }
 
+/* ### Favoritos - fixo #### */
+.favoritos{
+    width: 480px;
+    height: 720px;
+    overflow: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 15px;
+}
+
+.favoritos p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.favoritos .colf1{
+    width: 40px;
+    height: auto;
+    color:#ae7973;
+    margin-top: 15px;
+    float: left;
+}
+
+.favoritos .colf2{
+    width: 180px;
+    height: auto;
+    float: left;
+}
+
+.favoritos .colf3{
+    width: 210px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.favoritos .colf4{
+    width: 210px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.favoritos .colf5{
+    width: 210px;
+    float: left;
+    margin-right: 10px;
+}
+
+.favoritos .colf6{
+    width: 210px;
+    float: left;
+    margin-right: 10px;
+}
+
+.colf7 .final{
+    color: #7b8ca1;
+    text-align: center;
+}
 
 
-.cong2 .favoritos{
-    width: 530px;
-    background-color: green;
-    position: relative;
+.avaliacao{
+    width: 650px;
+    height: auto;
+    float: left;
+    margin: 0px 23px 50px 10px;
+}
+
+.avaliacao h3{
+    margin-left: 0px;
+}
+
+#c4{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#c4 .col1{
+    width: 450px;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+
+
+#c4 .col2{
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #ae7973;
+    width: 120px;
+    height: auto;
+}
+
+#c4 .col3{
+    margin-top: 15px;
+    width: 10px;
+    height: auto;
+}
+
+#c4 .col4{
+    color:#7b8ca1;
+}
+
+#c4 .col5{
+    color:#c4d0df;
+}
+
+#c4 .col6{
+    width:35px;
+    height: auto;
+    color: #7b8ca1;
+    margin-left: 5px;
+}
+
+#c4 .col7{
+    width: 300px;
+    height: auto;
+    float: left;
+    color: #7b8ca1;
+}
+
+#c5{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#c5 .col1{
+    width: 450px;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+
+#c5 .col2{
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #ae7973;
+    width: 120px;
+    height: auto;
+}
+
+#c5 .col3{
+    margin-top: 15px;
+    width: 10px;
+    height: auto;
+}
+
+#c5 .col4{
+    color:#7b8ca1;
+}
+
+#c5 .col5{
+    color:#c4d0df;
+}
+
+#c5 .col6{
+    width:35px;
+    height: auto;
+    color: #7b8ca1;
+    margin-left: 5px;
+}
+
+#c5 .col7{
+    width: 300px;
+    height: auto;
+    float: left;
+    color: #7b8ca1;
 }
 
 /* ##### FOOTER ##### */
