@@ -59,6 +59,7 @@ nav ul .nav-link:HOVER{
 
 /* ##### Usuário ##### */
 .user{
+    background-color: #172433;
     width: 1200px;
     height: auto;
     margin: 0 auto;
@@ -81,7 +82,7 @@ nav ul .nav-link:HOVER{
 }
 
 .user .col2{
-    width: 1070px;
+    width: 700px;
     height: auto;
     float: left;
     margin-top: 30px;
@@ -91,6 +92,12 @@ nav ul .nav-link:HOVER{
 
 .user .col2 h4{
     color:white;
+}
+
+.user .col3{
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 130px;
 }
 
 .user .icons{
@@ -123,7 +130,7 @@ main .revisoes{
 }
 
 .analise{
-    width: 700px;
+    width: 770px;
     height: auto;
     float: left;
     margin-right: 23px;
@@ -134,9 +141,10 @@ main .revisoes{
     color: white;
 }
 
-/* ### Análise e Avaliação ### */
+/* ### Análise ### */
 
 #c1{
+    background-color: #172433;
     border-style: solid;
     border-width: 2px;
     border-color: #434e5c;
@@ -147,6 +155,7 @@ main .revisoes{
 #c1 .col1{
     width: 450px;
     margin-top: 15px;
+    margin-right: 125px;
 }
 
 
@@ -187,6 +196,7 @@ main .revisoes{
 }
 
 #c2{
+    background-color: #172433;
     border-style: solid;
     border-width: 2px;
     border-color: #434e5c;
@@ -197,6 +207,7 @@ main .revisoes{
 #c2 .col1{
     width: 450px;
     margin-top: 15px;
+    margin-right: 125px;
 }
 
 #c2 .col2{
@@ -226,7 +237,7 @@ main .revisoes{
     height: auto;
     color: #7b8ca1;
     margin-left: 5px;
-}
+} 
 
 #c2 .col7{
     width: 300px;
@@ -236,6 +247,7 @@ main .revisoes{
 }
 
 #c3{
+    background-color: #172433;
     border-style: solid;
     border-width: 2px;
     border-color: #434e5c;
@@ -246,6 +258,7 @@ main .revisoes{
 #c3 .col1{
     width: 450px;
     margin-top: 15px;
+    margin-right: 125px;
 }
 
 #c3 .col2{
@@ -284,69 +297,11 @@ main .revisoes{
     color: #7b8ca1;
 }
 
-/* ### Favoritos - fixo #### */
-.favoritos{
-    width: 480px;
-    height: 720px;
-    overflow: auto;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #434e5c;
-    border-radius: 15px;
-}
 
-.favoritos p{
-    color: white;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.favoritos .colf1{
-    width: 40px;
-    height: auto;
-    color:#ae7973;
-    margin-top: 15px;
-    float: left;
-}
-
-.favoritos .colf2{
-    width: 180px;
-    height: auto;
-    float: left;
-}
-
-.favoritos .colf3{
-    width: 210px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
-
-.favoritos .colf4{
-    width: 210px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
-
-.favoritos .colf5{
-    width: 210px;
-    float: left;
-    margin-right: 10px;
-}
-
-.favoritos .colf6{
-    width: 210px;
-    float: left;
-    margin-right: 10px;
-}
-
-.colf7 .final{
-    color: #7b8ca1;
-    text-align: center;
-}
-
+/* ### Avaliação ### */
 
 .avaliacao{
-    width: 650px;
+    width: 730px;
     height: auto;
     float: left;
     margin: 0px 23px 50px 10px;
@@ -357,6 +312,7 @@ main .revisoes{
 }
 
 #c4{
+    background-color: #172433;
     border-style: solid;
     border-width: 2px;
     border-color: #434e5c;
@@ -367,7 +323,7 @@ main .revisoes{
 #c4 .col1{
     width: 450px;
     margin-top: 15px;
-    margin-right: 60px;
+    margin-right: 125px;
 }
 
 
@@ -408,6 +364,7 @@ main .revisoes{
 }
 
 #c5{
+    background-color: #172433;
     border-style: solid;
     border-width: 2px;
     border-color: #434e5c;
@@ -418,7 +375,7 @@ main .revisoes{
 #c5 .col1{
     width: 450px;
     margin-top: 15px;
-    margin-right: 60px;
+    margin-right: 125px;
 }
 
 #c5 .col2{
@@ -457,21 +414,99 @@ main .revisoes{
     color: #7b8ca1;
 }
 
+
+/* ### Favoritos - fixo #### */
+.favoritos{
+    background-color: #172433;
+    width: 410px;
+    height: 590px;
+    overflow: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #434e5c;
+    border-radius: 15px;
+}
+
+.favoritos p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.favoritos .colf1{
+    width: 25px;
+    height: auto;
+    color:#ae7973;
+    margin-top: 15px;
+    float: left;
+    margin-left: 10px;
+}
+
+.favoritos .colf2{
+    width: 180px;
+    height: auto;
+    float: left;
+}
+
+.favoritos .colf3{
+    width: 170px;
+    margin: 0px 0px 20px 10px;
+}
+
+.favoritos .colf4{
+    width: 170px;
+    margin: 0px 0px 20px 10px;
+}
+
+.favoritos .colf5{
+    width: 170px;
+    margin: 0px 0px 20px 10px;
+}
+
+.favoritos .colf6{
+    width: 170px;
+    margin: 0px 0px 20px 10px;
+}
+
+.colf7 .final{
+    color: #7b8ca1;
+    text-align: center;
+}
+
+
+/* ### Páginas ### */
+#paginas{
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
 /* ##### FOOTER ##### */
 footer{
     width: 100%;
+    height: auto;
     background-color: #213041;
     text-align: center;
     color: white;
-    padding: 40px 0px 100px 0px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .textoFooter{
+    width: 850px;
     float: left;
     color:#8698ae;
+    margin-left: 350px;
     text-align: left;
+    font-size: 20px;
+    padding: 50px 0px;
 }
 
-footer ul{
-    list-style-type: none;
+.redes{
+    width: 150px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding-top: 40px;
 }
